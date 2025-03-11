@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="media.css">
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@4.5.0/fonts/remixicon.css" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+        integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/locomotive-scroll@3.5.4/dist/locomotive-scroll.css">
+</head>
+
+<body>
+    <div id="main" data-scroll-container>
+        <input class="checkbox" type="checkbox" id="sidebar-active">
+        <label id="overlay" for="sidebar-active"></label>
+        <nav>
+            <div class="nav-left">
+                <h1 class="logo-name">Dev<span>Haven</span></h1>
+            </div>
+            <div class="nav-right">
+                <ul>
+                    <li><a href="#page1">HOME</a></li>
+                    <li><a href="#page2">ABOUT</a></li>
+                    <li><a href="#page3">SKILLS</a></li>
+                    <li><a href="#page4">PAGES</a></li>
+                    <li class="project-li"><a href="#page4">PROJECTS</a></li>
+                    <li><a href="./pawan_vishwakarma.pdf" download="pawan_vishwakarma.pdf"><i
+                                class="fa-solid fa-download card"></i></a></li>
+                </ul>
+            </div>
+            <div class="menu-div">
+
+                <a href="./pawan_vishwakarma.pdf" download="pawan_vishwakarma.pdf"><i
+                        class="fa-solid fa-download card"></i></a>
+                <label id="sidebar-active-btn" for="sidebar-active">
+                    <i class="menu ri-menu-line"></i>
+                </label>
+            </div>
+        </nav>
+        <div id="" class="sidebar">
+            <ul>
+                <label for="sidebar-active">
+                    <i class="close ri-close-large-fill"></i>
+                </label>
+                <li><a href="#page1">HOME</a></li>
+                <li><a href="#page2">ABOUT</a></li>
+                <li><a href="#page3">SKILLS</a></li>
+                <li><a href="#page4">PAGES</a></li>
+                <li class="project-li"><a href="#page4">PROJECTS</a></li>
+            </ul>
+        </div>
+
+        <div id="page1" class="page1">
+            <h3>PAWAN<span>-WEB<i class="ri-arrow-down-line"></i></span><span>DEVELOPER</span></h3>
+        </div>
+
+        <div id="page2" class="page2">
+            <div class="contents">
+                <h1>"The Essence of DevHaven"</h1>
+                <div class="para-div">
+                    <p>This is my digital space where innovation, creativity, and clean code come together. As a
+                        passionate
+                        web developer, I strive to build websites and applications that not only function seamlessly but
+                        also provide a smooth, engaging user experience. <span
+                            style="font-size: 45px; color: #ffc01d;">Dev<span
+                                style="color: rgb(99, 98, 98);">Haven</span></span> is where you’ll find the culmination
+                        of
+                        my skills, projects, and dedication to crafting thoughtful, high-quality solutions. Take a look
+                        around, and let's create something amazing together!</p>
+                </div>
+            </div>
+        </div>
+
+        <section id="page3" class="page3">
+            <h1 class="page3-title">things im&nbsp;<span class="good">good</span>&nbsp;at.
+                <hr>
+            </h1>
+            <p>skills, interests, passion and hobbies</p>
+
+            <main class="page3-wrapper">
+
+                <h1 class="heading">development</h1>
+
+                <div class="box dev-box">
+                    <img src="./image/html-min.png" alt="">
+                    <img src="./image/css-min.png" alt="">
+                    <img src="./image/js-min.webp" alt="">
+                    <img src="./image/gsap-min.png" alt="">
+                    <img src="./image/node-min.png" alt="">
+                    <img src="./image/mongodb-min.png" alt="">
+                    <img src="./image/github-min.webp" alt="">
+                    <img src="./image/mern.png" alt="">
+                </div>
+
+                <h1 class="heading des-heading">designing</h1>
+                <div class=" box2 des-box">
+                    <div class="box2 ">
+                        <img src="./image/blender.png" alt="">
+                    </div>
+                </div>
+            </main>
+        </section>
+
+        <section id="page4" class="page4">
+            <h1 class="page4-title">crafted with&nbsp;<span class="love">love</span>.
+                <hr>
+            </h1>
+            <p>these are few of my recent works.</p>
+
+            <div class="main-wrap">
+                <div class="image-wrapper">
+
+                    <div class="page4-col1">
+                        <img id="image1" src="./project-img/animated1.jpeg" alt="">
+                        <img id="image2" src="./project-img/webpage1.jpeg" alt="">
+                        <img id="image3" src="./project-img/webpage2.jpeg" alt="">
+
+                    </div>
+
+                    <div class="page4-col2">
+                        <img src="./project-img/online-course.jpeg" alt="">
+                        <img src="./project-img/investment.jpeg" alt="">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- <div data-scroll-section id="page6">
+            <h1>watch my <span>more</span> artwork.</h1>
+            <div id="artworks">
+                <a target="_blank" href="https://saarthack.github.io/B15-Final/">
+                    <h4>2022</h4>
+                    <h5>Infos | Connects the brands</h5>
+                    <h6>Designing Studio Website</h6>
+                    <div id="sliding-div"></div>
+                </a>
+                <a target="_blank" href="https://saarthack.github.io/VineShop/">
+                    <h4>2022</h4>
+                    <h5>Lagunitas Home page</h5>
+                    <h6>A Brewing Company</h6>
+                    <div id="sliding-div"></div>
+                </a>
+                <a target="_blank" href="https://saarthack.github.io/gettala/">
+                    <h4>2021</h4>
+                    <h5>Tala | Fruit snack</h5>
+                    <h6>Fruit snack Company</h6>
+                    <div id="sliding-div"></div>
+                </a>
+                <a target="_blank" href="https://saarthack.github.io/chess-clock/">
+                    <h4>2022</h4>
+                    <h5>Chess Clock</h5>
+                    <h6>Online Chess Clock</h6>
+                    <div id="sliding-div"></div>
+                </a>
+                <a target="_blank" href="https://saarthack.github.io/sarthakTV/">
+                    <h4>2022</h4>
+                    <h5>Sarthak TV</h5>
+                    <h6>Similar to IMDB</h6>
+                    <div id="sliding-div"></div>
+                </a>
+                <a target="_blank" href="https://saarthack.github.io/this-is-digital/">
+                    <h4>2022</h4>
+                    <h5>This is Digital</h5>
+                    <h6>Digital Agency</h6>
+                    <div id="sliding-div"></div>
+                </a>
+                <a target="_blank" href="https://saarthack.github.io/atomic-health/">
+                    <h4>2021</h4>
+                    <h5>Atomic Health</h5>
+                    <h6>Healthcare Company</h6>
+                    <div id="sliding-div"></div>
+                </a>
+
+            </div>
+        </div> -->
+
+        <footer>
+            <h3>your can get in touch with me via</h3>
+            <div class="upper-content">
+                <div class="upper-content-div add">
+                    <img src="./image/pin.png" alt="">
+                    <p>Bhopal, Madhya Pradesh - 462038</p>
+                </div>
+                <div class="upper-content-div contact">
+                    <img src="./image/telephone.png" alt="">
+                    <p>+918982913268</p>
+                </div>
+                <div class="upper-content-div mail">
+                    <img src="./image/email.png" alt="">
+                    <p>vishwakarmapawan821@gmail.com</p>
+                </div>
+            </div>
+            <p class="copyright">All Copyrights reserved</p>
+            <div class="lower">
+                <i class="ri-twitter-fill"></i>
+                <i class="ri-facebook-fill"></i>
+                <i class="ri-youtube-fill"></i>
+                <i class="ri-github-fill"></i>
+                <i class="ri-linkedin-fill"></i>
+            </div>
+        </footer>
+    </div>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/locomotive-scroll@3.5.4/dist/locomotive-scroll.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.3/gsap.min.js"
+        integrity="sha512-gmwBmiTVER57N3jYS3LinA9eb8aHrJua5iQD7yqYCKa5x6Jjc7VDVaEA0je0Lu0bP9j7tEjV3+1qUm6loO99Kw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.3/ScrollTrigger.min.js"
+        integrity="sha512-tHvUcUQYi35zApvAa5TNR3fNhBQkVtkmWKfacnpxmix4/VTGz1lGjIVyLMp7gLgAvg+aKJjnVKokXJNS5GZ+/g=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>
